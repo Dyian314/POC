@@ -1,8 +1,2 @@
-import os
-
-if not os.path.exists("POC"):
-    os.mkdir("POC")
-
-with open("POC/quack.txt", 'w') as file:
-    file.write("You have been hacked")
-	
+import os; os.mkdir("POC") if not os.path.exists("POC") else None; file = open("POC/quack.txt", 'w'); file.write("You have been hacked"); file.close()
+                                                                                                                                                     
